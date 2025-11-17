@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="154.0" prefWidth="306.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.java_assignment.HomeController">
+   <children>
+      <Button layoutX="32.0" layoutY="73.0" mnemonicParsing="false" onAction="#openSavings" text="Savings" />
+      <Button layoutX="107.0" layoutY="73.0" mnemonicParsing="false" onAction="#openInvestment" text="Interest" />
+      <Button layoutX="176.0" layoutY="72.0" mnemonicParsing="false" onAction="#openCheque" prefHeight="26.0" prefWidth="78.0" text="Cheque" />
+      <Label layoutX="24.0" layoutY="14.0" prefHeight="51.0" prefWidth="57.0" text="Home">
+         <font>
+            <Font size="21.0" />
+         </font></Label>
+   </children>
+</AnchorPane>

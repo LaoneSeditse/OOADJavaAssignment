@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="245.0" prefWidth="425.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.java_assignment.LoginController">
+   <children>
+      <Label layoutX="24.0" layoutY="14.0" prefHeight="35.0" prefWidth="76.0" text="Login">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="62.0" layoutY="65.0" prefHeight="26.0" prefWidth="84.0" text="username" />
+      <TextField fx:id="username" layoutX="138.0" layoutY="66.0" prefHeight="26.0" prefWidth="177.0" promptText="Enter Username" />
+      <Label layoutX="62.0" layoutY="109.0" prefHeight="26.0" prefWidth="67.0" text="Password" />
+      <TextField fx:id="password" layoutX="138.0" layoutY="110.0" prefHeight="26.0" prefWidth="178.0" promptText="Enter Password" />
+      <Button fx:id="loginbtn" layoutX="250.0" layoutY="175.0" mnemonicParsing="false" onAction="#login" prefHeight="26.0" prefWidth="76.0" text="Login" />
+      <Button layoutX="48.0" layoutY="175.0" mnemonicParsing="false" onAction="#openCreateCustomer" prefHeight="26.0" prefWidth="112.0" text="Create Customer" />
+   </children>
+</AnchorPane>

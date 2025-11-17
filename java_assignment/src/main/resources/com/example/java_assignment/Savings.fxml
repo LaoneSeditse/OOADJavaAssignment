@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="232.0" prefWidth="460.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.java_assignment.SavingsController">
+   <children>
+      <Label layoutX="28.0" layoutY="27.0" prefHeight="44.0" prefWidth="127.0" text="Savings" />
+      <Label layoutX="28.0" layoutY="92.0" prefHeight="36.0" prefWidth="127.0" text="Deposit" />
+      <TextField fx:id="savingsDeposit" layoutX="144.0" layoutY="98.0" />
+      <Button layoutX="337.0" layoutY="161.0" mnemonicParsing="false" onAction="#depositButtonAction" prefHeight="36.0" prefWidth="90.0" text="Deposit" />
+      <Label fx:id="savingsBalance" layoutX="41.0" layoutY="152.0" prefHeight="36.0" prefWidth="90.0" />
+   </children>
+</AnchorPane>

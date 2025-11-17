@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="367.0" prefWidth="377.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.java_assignment.CreaterCustomerController">
+   <children>
+      <TextField fx:id="name" layoutX="32.0" layoutY="77.0" promptText="Name" />
+      <TextField fx:id="address" layoutX="33.0" layoutY="128.0" promptText="Address" />
+      <TextField fx:id="cell" layoutX="34.0" layoutY="175.0" promptText="Cellphone Number" />
+      <Label layoutX="32.0" layoutY="14.0" prefHeight="38.0" prefWidth="172.0" text="Create Customer">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Button fx:id="create" layoutX="238.0" layoutY="300.0" mnemonicParsing="false" onAction="#createCustomer" text="Create" />
+      <Label fx:id="message" layoutX="238.0" layoutY="126.0" prefHeight="26.0" prefWidth="123.0" textFill="RED" />
+      <TextField fx:id="password" layoutX="35.0" layoutY="233.0" promptText="Password" />
+   </children>
+</AnchorPane>

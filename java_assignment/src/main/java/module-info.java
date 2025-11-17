@@ -9,6 +9,7 @@ module com.example.java_assignment {
     requires org.kordamp.bootstrapfx.core;
     requires eu.hansolo.tilesfx;
     requires com.almasb.fxgl.all;
+    requires java.desktop;
 
     opens com.example.java_assignment to javafx.fxml;
     exports com.example.java_assignment;
